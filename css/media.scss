@@ -1,0 +1,118 @@
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (max-width: 576px) {
+
+}
+
+@media only screen and (max-width: 375px) {
+
+}
+
+@media only screen and (max-width: 360px) {
+
+}
+
+@media only screen and (max-width: 320px) {
+  .container {
+    width: 305px;
+  }
+  header{
+    .navigationbar{
+      flex-wrap: wrap;
+    }
+  }
+  .first_section {
+
+    .heading {
+      h1{
+        font-size: 40px;
+      }
+      div {
+      &:nth-of-type(1){
+        flex-wrap: wrap;
+      }
+        &:nth-of-type(2) {
+          display: none;
+        }
+      }
+    }
+  }
+  .Episodes {
+    .wrapper {
+      .ep_box_img {
+        width: 305px;
+      }
+
+    }
+
+  }
+  .Topics {
+    .wrapper {
+      flex-wrap: wrap;
+      div {
+        img{
+          width: 305px;
+        }
+      }
+    }
+  }
+  .Keep{
+    .wrapper{
+      form{
+        display: flex;
+        flex-direction: column;
+        input{
+          width: 305px;
+          padding: 12px 0px 12px 30px;
+        }
+        .btn{
+          position: initial;
+        }
+      }
+    }
+  }
+  .footer{
+    .wrapper{
+      flex-wrap: wrap;
+      .twitter{
+        justify-content: center;
+        a:nth-child(1):after {
+
+            display: none;
+
+        }
+        a:nth-child(2):after {
+
+          display: none;
+
+        }
+
+
+        a:nth-child(2){
+margin-right: 25px;
+          margin-left: 25px;
+
+        }
+      }
+      .wrap_right{
+
+      }
+    }
+  }
+}
+
+
+
+
+
+

@@ -64,7 +64,7 @@ header {
   color: #FFFFFF;
   padding: 207px 0 0;
   height: 100vh;
-  background: url("../img/Hero_bg.png") no-repeat center/cover; }
+  background: url("../img/Hero_bg.jpg") no-repeat center/cover; }
   .first_section .heading {
     max-width: 650px; }
     .first_section .heading h3 {
@@ -364,7 +364,7 @@ header {
       .footer .twitter a:nth-child(2) {
         margin-right: 50px;
         margin-left: 50px; }
-        .footer .twitter a:nth-child(2) span:after {
+        .footer .twitter a:nth-child(2):after {
           content: "•";
           display: inline-block;
           position: relative;
