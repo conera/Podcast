@@ -6,6 +6,7 @@
     right: 210px; } }
 @media only screen and (max-width: 769px) {
   header {
+    padding: 0;
     position: initial;
     background: #1D1E33; }
     header img {
@@ -72,6 +73,7 @@
       margin-bottom: 5px; } }
 @media only screen and (max-width: 576px) {
   header {
+    padding: 0;
     position: initial;
     background: #1D1E33; }
     header img {
@@ -119,10 +121,14 @@
     text-align: center;
     letter-spacing: 0.02em; }
   .Meet_host .row div:first-child {
-    margin-bottom: 15px; }
+    display: none; }
 
   .Topics {
     padding: 0 0 50px; }
+    .Topics .row div:nth-child(2) {
+      margin-bottom: 15px; }
+    .Topics .row div:nth-child(3) {
+      margin-bottom: 15px; }
 
   .Keep_in_touch .btn {
     right: -2px; }
@@ -138,6 +144,7 @@
       margin-bottom: 5px; } }
 @media only screen and (max-width: 375px) {
   header {
+    padding: 0;
     position: initial;
     background: #1D1E33; }
     header img {
@@ -185,10 +192,14 @@
     text-align: center;
     letter-spacing: 0.02em; }
   .Meet_host .row div:first-child {
-    margin-bottom: 15px; }
+    display: none; }
 
   .Topics {
     padding: 0 0 50px; }
+    .Topics .row div:nth-child(2) {
+      margin-bottom: 15px; }
+    .Topics .row div:nth-child(3) {
+      margin-bottom: 15px; }
 
   .Keep_in_touch .btn {
     right: -2px; }
@@ -204,6 +215,7 @@
       margin-bottom: 5px; } }
 @media only screen and (max-width: 360px) {
   header {
+    padding: 0;
     position: initial;
     background: #1D1E33; }
     header img {
@@ -251,10 +263,14 @@
     text-align: center;
     letter-spacing: 0.02em; }
   .Meet_host .row div:first-child {
-    margin-bottom: 15px; }
+    display: none; }
 
   .Topics {
     padding: 0 0 50px; }
+    .Topics .row div:nth-child(2) {
+      margin-bottom: 15px; }
+    .Topics .row div:nth-child(3) {
+      margin-bottom: 15px; }
 
   .Keep_in_touch .btn {
     right: -2px; }
@@ -270,6 +286,7 @@
       margin-bottom: 5px; } }
 @media only screen and (max-width: 320px) {
   header {
+    padding: 0;
     position: initial;
     background: #1D1E33; }
     header img {
@@ -321,6 +338,10 @@
 
   .Topics {
     padding: 0 0 50px; }
+    .Topics .row div:nth-child(2) {
+      margin-bottom: 15px; }
+    .Topics .row div:nth-child(3) {
+      margin-bottom: 15px; }
 
   .Keep_in_touch .btn {
     right: -2px; }
