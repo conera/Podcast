@@ -1,276 +1,269 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=	, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
-    <title>Podcast</title>
+    <title>Document</title>
+
 </head>
 <body>
-<header id="header" class="header">
+<header>
     <div class="container">
-        <div class="wrapper">
-            <a href="#"><img src="img/logo/Logo.svg" alt="logo"></a>
-            <ul class="navigationbar">
-                <li><a href="">Home</a></li>
-                <li><a href="">Episodes</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Shop</a></li>
-                <li><a href="">Contact</a></li>
-                <li><a class="sign_up" href="#">Sign up</a></li>
-            </ul>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#"><img src="img/logo/Logo.svg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Episodes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+            <a class="btn-link" href="#">Sign up</a>
+        </nav>
     </div>
 </header>
-<section class="first_section">
+<section class="First-section">
     <div class="container">
-        <div class="wrapper">
-            <div class="heading">
-                <h3>MIKE LEWIS • PERSONAL BRANDING</h3>
-                <h1>Everyday is Chance to Learn New Things</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Viverra laoreet in est
-                    tortor quam pretium tellus pretium sit. </p>
-                <a href="#" class="btn_link">Start Listening</a>
-                <a href="#" class="btn2">See all Episodes</a>
-                <p>ALSO FIND US ON :</p>
-                <div>
-                    <a href="#"><img src="img/logo/image 7.svg" alt=""></a>
-                    <a href="#"> <img class="margin_right_left" src="img/logo/image 8.svg" alt=""></a>
-                    <a href="#"> <img src="img/logo/image 9.svg" alt=""></a>
-                </div>
-                <div><img src="img/Hero.png" alt=""></div>
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <h3>MIKE LEWIS · PERSONAL BRANDING</h3>
+                <h1>Everyday is
+                    Chance to Learn
+                    New Things</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Viverra laoreet in est tortor quam
+                    pretium
+                    tellus pretium sit. </p>
+                <a href="#" class="btn-link">Start Listening</a>
+                <a href="#" class="btn-link-tr">See all Episodes</a>
+                <span>ALSO FIND US ON :</span>
+                <a href="#"><img src="img/logo/image-7.svg" alt="Spotify"></a>
+                <a href="#"><img src="img/logo/image-8.svg" alt="Apple Podcasts"></a>
+                <a href="#"><img src="img/logo/image-9.svg" alt="Youtube"></a>
             </div>
-
+            <div class="col-12 col-lg-6">
+                <img class="w-100" src="img/Hero.png" alt="Podcast">
+            </div>
         </div>
-
     </div>
 </section>
-
-
-<section id="Episodes" class="Episodes">
+<section class="Episodes">
     <div class="container">
-        <div class="heading_episodes">
-            <h2>Latest Episodes</h2>
-            <a href="#">View all</a>
-        </div>
-        <div class="wrapper">
-            <div class="m-b">
-
-                <div class="ep_box_img">
-                    <img src="img/Latest Episodes/man_glass.jpg" alt="">
-                    <p>EP. 25</p>
-                </div>
-                <p>MIKE LEWIS • PERSONAL BRANDING</p>
+        <div class="row">
+            <div class="col-12 mb-5">
+                <h2>Latest Episodes</h2>
+                <a href="#">View all</a>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="before-ep position-relative"><img class="w-100 d-block "
+                                                              src="img/Latest-Episodes/man_glass.jpg" alt="man"></div>
+                <h4>MIKE LEWIS · PERSONAL BRANDING</h4>
                 <h3>Everyday is Chance to Learn New Things</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                    scelerisque risus, tortor, </p>
-                <div class="wrap_time">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque risus, tortor, </p>
+                <div class="play_episode">
                     <a href="#">Play This Episode</a>
                     <span>60 min</span>
                 </div>
             </div>
-            <div class="m-b">
-                <div class="ep_box_img">
-                    <img src="img/Latest Episodes/second.jpg" alt="">
-                    <p>EP. 25</p>
-                </div>
-                <p>MIKE LEWIS • PERSONAL BRANDING</p>
-                <h3>Build Personal Branding on Design Ecosystem</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                    scelerisque risus, tortor, </p>
-                <div class="wrap_time">
+            <div class="col-12 col-lg-4">
+                <div class="before-ep position-relative"><img class="w-100 d-block "
+                                                              src="img/Latest-Episodes/second.jpg" alt="man"></div>
+                <h4>MIKE LEWIS · PERSONAL BRANDING</h4>
+                <h3>Everyday is Chance to Learn New Things</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque risus, tortor, </p>
+                <div class="play_episode">
                     <a href="#">Play This Episode</a>
                     <span>60 min</span>
                 </div>
             </div>
-            <div class="m-b">
-                <div class="ep_box_img">
-                    <img src="img/Latest Episodes/third.jpg" alt="">
-                    <p>EP. 24</p>
+            <div class="col-12 col-lg-4">
+                <div class="before-ep position-relative"><img class="w-100 d-block " src="img/Latest-Episodes/third.jpg"
+                                                              alt="man"></div>
+                <h4>MIKE LEWIS · PERSONAL BRANDING</h4>
+                <h3>Everyday is Chance to Learn New Things</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque risus, tortor, </p>
+                <div class="play_episode">
+                    <a href="#">Play This Episode</a>
+                    <span>60 min</span>
                 </div>
-                <p>MIKE LEWIS • WORK FROM ANYWHERE</p>
-                <h3>20 Ways To Keep Motivating While Work From Home</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                    scelerisque risus, tortor, </p>
-                <div class="wrap_time">
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="before-ep position-relative"><img class="w-100 d-block " src="img/Latest-Episodes/forth.jpg"
+                                                              alt="man"></div>
+                <h4>MIKE LEWIS · PERSONAL BRANDING</h4>
+                <h3>Everyday is Chance to Learn New Things</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque risus, tortor, </p>
+                <div class="play_episode">
+                    <a href="#">Play This Episode</a>
+                    <span>60 min</span>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="before-ep position-relative"><img class="w-100 d-block " src="img/Latest-Episodes/fifth.jpg"
+                                                              alt="man"></div>
+                <h4>MIKE LEWIS · PERSONAL BRANDING</h4>
+                <h3>Everyday is Chance to Learn New Things</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque risus, tortor, </p>
+                <div class="play_episode">
+                    <a href="#">Play This Episode</a>
+                    <span>60 min</span>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="before-ep position-relative"><img class="w-100 d-block " src="img/Latest-Episodes/sixth.jpg"
+                                                              alt="man"></div>
+                <h4>MIKE LEWIS · PERSONAL BRANDING</h4>
+                <h3>Everyday is Chance to Learn New Things</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque risus, tortor, </p>
+                <div class="play_episode">
                     <a href="#">Play This Episode</a>
                     <span>60 min</span>
                 </div>
             </div>
 
-
-            <div>
-                <div class="ep_box_img">
-                    <img src="img/Latest Episodes/forth.jpg" alt="">
-                    <p>EP. 23</p>
-                </div>
-                <p>MIKE LEWIS • PERSONAL BRANDING</p>
-                <h3>Build Personal Branding on Design Ecosystem</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                    scelerisque risus, tortor, </p>
-                <div class="wrap_time">
-                    <a href="#">Play This Episode</a>
-                    <span>60 min</span>
-                </div>
+        </div>
+    </div>
+</section>
+<section class="Meet_host">
+    <div class="container">
+        <div class="row align-items-end justify-content-between">
+        <div class="col-12 col-lg-6">
+            <img class="d-block w-100" src="img/host.png" alt="man">
+        </div>
+        <div class="col-12 col-lg-6">
+            <h2>Meet Your Host</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa amet leo risus, scelerisque. Vivamus
+                faucibus faucibus tristique ut pellentesque quis. Laoreet tellus et feugiat sit. Ornare a tortor nisl
+                elit ipsum. Purus vel lorem rutrum id cras. </p>
+            <p>Sagittis tellus amet diam, elementum. Netus arcu eu proin ut diam amet. Egestas et nisi, quis ut in nibh
+                nunc. Nulla sed tortor lacus nullam vitae. Tortor sit sit iaculis tortor tincidunt aliquam vestibulum
+                viverra. Amet id dui id proin elementum id vitae ornare. Tortor sit sit iaculis tortor tincidunt aliquam
+                vestibulum viverra. Amet id dui id proin elementum id vitae ornare. </p>
+            <a href="#" class="btn-link">Learn more</a>
+        </div>
+        </div>
+    </div>
+</section>
+<section class="Topics">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-between align-items-end mb-5">
+                <h2>Topics</h2>
+                <a href="#">View all</a>
             </div>
-            <div>
-                <div class="ep_box_img">
-                    <img src="img/Latest Episodes/fifth.jpg" alt="">
-                    <p>EP. 21</p>
-                </div>
-                <p>MIKE LEWIS • PERSONAL BRANDING</p>
-                <h3>Build Personal Branding on Design Ecosystem</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                    scelerisque risus, tortor, </p>
-                <div class="wrap_time">
-                    <a href="#">Play This Episode</a>
-                    <span>60 min</span>
-                </div>
+            <div class="col-12 col-lg-4">
+                <img class="d-block w-100" src="img/macBook.jpg" alt="macBook">
+                <h3>PERSONAL BRANDING</h3>
+                <span>45 episodes</span>
             </div>
-            <div>
-                <div class="ep_box_img">
-                    <img src="img/Latest Episodes/sixth.jpg" alt="">
-                    <p>EP. 20</p>
-                </div>
-                <p>MIKE LEWIS • PERSONAL BRANDING</p>
-                <h3>Build Personal Branding on Design Ecosystem</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                    scelerisque risus, tortor, </p>
-                <div class="wrap_time">
-                    <a href="#">Play This Episode</a>
-                    <span>60 min</span>
-                </div>
+            <div class="col-12 col-lg-4">
+                <img class="d-block w-100" src="img/planning.jpg" alt="planning">
+                <h3>DESIGN ECOSYSTEM</h3>
+                <span>45 episodes</span>
+            </div>
+            <div class="col-12 col-lg-4">
+                <img class="d-block w-100" src="img/meeting.jpg" alt="meeting">
+                <h3>WORK FROM ANYWHERE</h3>
+                <span>45 episodes</span>
             </div>
         </div>
     </div>
 </section>
-
-
-<section id="Host" class="Host">
+<section class="Keep_in_touch">
     <div class="container">
-        <div class="wrapper">
-            <div class="box_img">
-                <img src="img/host.png" alt="">
-            </div>
-            <div class="meet_host_article">
-                <h3>Meet Your Host</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Massa amet leo risus, scelerisque. Vivamus faucibus faucibus tristique ut pellentesque quis. Laoreet
-                    tellus et feugiat sit. Ornare a tortor nisl elit ipsum. Purus vel lorem rutrum id cras.</p>
-
-                <p> Sagittis tellus amet diam, elementum. Netus arcu eu proin ut diam amet. Egestas et nisi, quis ut in
-                    nibh nunc. Nulla sed tortor lacus nullam vitae. Tortor sit sit iaculis tortor tincidunt aliquam
-                    vestibulum viverra. Amet id dui id proin elementum id vitae ornare. Tortor sit sit iaculis tortor
-                    tincidunt aliquam vestibulum viverra. Amet id dui id proin elementum id vitae ornare.</p>
-                <a class="btn_link_host" href="#">Learn more</a>
+        <div class="row">
+            <div class="col-12 text-center">
+<h2>Keep In Touch and Stay Inspiring Everyday</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At senectus vitae hendrerit massa in.</p>
+                <form action="#" class="position-relative" >
+                    <input type="email" id="email" name="email" placeholder="Enter Your Email">
+                    <label for="email"></label>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
             </div>
         </div>
     </div>
 </section>
-
-
-<section id="Topics" class="Topics">
+<footer>
     <div class="container">
-        <div class="heading_episodes">
-            <h2>Topics</h2>
-            <a href="">View all</a>
-        </div>
-        <div class="wrapper">
-            <div>
-                <img src="img/unsplash_xihqiK6rD9k.jpg" alt="">
-                <h3> PERSONAL BRANDING</h3>
-                <p>45 episodes</p>
+        <div class="row">
+            <div class="col-12 col-lg-4">
+                <a href="#"><img src="img/logo/Logo-black.svg" alt="logo"></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac vestibulum et quis eu, magna varius.</p>
             </div>
-            <div>
-                <img src="img/unsplash_gcHFXsdcmJE.jpg" alt="">
-                <h3> DESIGN ECOSYSTEM</h3>
-                <p>45 episodes</p>
-            </div>
-            <div>
-                <img src="img/unsplash_1PHztpKU2ag.jpg" alt="">
-                <h3> WORK FROM ANYWHERE</h3>
-                <p>45 episodes</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section id="Keep" class="Keep">
-    <div class="container">
-
-        <div class="wrapper">
-            <h3>Keep In Touch and Stay Inspiring Everyday</h3>
-            <p>Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit. At senectus vitae hendrerit massa in.</p>
-            <form name="email" action="" method="post">
-                <label for="email"></label>
-                <input type="email" id="email" placeholder="Enter Your Email" class="inputt">
-                <button class="btn"> Subscribe</button>
-            </form>
-        </div>
-    </div>
-</section>
-
-
-<footer id="footer" class="footer">
-    <div class="container">
-        <div class="wrapper">
-            <div class="wrap_right">
-                <img src="img/logo/Logo black.svg" alt="Logo">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac vestibulum et quis
-                    eu, magna varius.</p>
-                <div class="twitter">
-                    <a href=""><span>Facebook</span></a>
-                    <a href=""><span>Twitter</span></a>
-                    <a href=""><span>Instagram</span></a>
-                </div>
-            </div>
-
-            <div>
+            <div class="col-6 col-lg-1 offset-lg-2">
+                <h3>Sitemap</h3>
                 <ul>
-                    <li>Sitemap</li>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Episodes</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Shop</a></li>
                 </ul>
             </div>
-
-            <div>
+            <div class="col-6 col-lg-2 offset-lg-1">
+                <h3>Company</h3>
                 <ul>
-                <li>Company</li>
-                <li><a href="">We are hiring</a></li>
-                <li><a href="">Cast Team</a></li>
-                <li><a href="">Studio</a></li>
+                    <li><a href="#">We are hiring</a></li>
+                    <li><a href="#">Cast Team</a></li>
+                    <li><a href="#">Studio</a></li>
+
                 </ul>
             </div>
-
-            <div>
+            <div class="col-12 col-lg-2">
+                <h3>Contact</h3>
                 <ul>
-                    <li>Contact</li>
-                    <li> <a href="">dsgnpod@gmail.com</a></li>
-                    <li> <a href="">28 Cambridge Avenue
-                    San Fransisco 3426</a></li>
-                    <li> <a href="">(758) 937 - 2694</a></li>
+                    <li><a href="#">dsgnpod@gmail.com</a></li>
+                    <li><a href="#">28 Cambridge Avenue
+                        San Fransisco 3426</a></li>
+                    <li><a href="#">(758) 937 - 2694</a></li>
+
                 </ul>
             </div>
-
-
+            <div class="col-12">
+                <a href="#">Facebook</a><a href="#">Twitter</a><a href="#">Instagram</a>
+            </div>
         </div>
         <hr>
-        <div class="bottom_footer">
-            <p> © 2019 The Collective Podcast </p>
-            <a href="#"> Terms conditions and Privacy Policy</a>
-
+        <div class=" d-flex justify-content-between">
+        <span>©  2019 The Collective Podcast</span>
+        <a href="#">Terms conditions and Privacy Policy</a>
         </div>
     </div>
+
 </footer>
+<script
+        src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/bootstrap.js"></script>
 
 </body>
 </html>

@@ -6,111 +6,585 @@
 
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
+  header{
+    position: initial;
+    background: #1D1E33 ;
+    img{
+      width: 160px;
+    }
+    nav{
+      .navbar-nav{
+        align-items: center;
+        .nav-item{
+          margin: 0;
+        }
+      }
+      .btn-link{
+        margin: auto;
+      }
+    }
+  }
+  .First-section{
 
+    padding: 70px 0 70px;
+    h3{
+      font-size: 14px;
+
+    }
+    h1{
+      font-size: 37px;
+      line-height: 49px;
+    }
+    .row {
+      div:first-child{
+        .btn-link-tr{
+          margin-bottom: 25px;
+        }
+        .btn-link{
+          margin-bottom: 25px;
+        }
+
+      }
+      div:last-child{
+        img{
+          display: none;
+        }
+      }
+
+
+    }
+
+    a{
+      display: block;
+      text-align: center;
+      margin-bottom: 14px;
+    }
+  }
+  .Episodes{
+    padding: 50px 0;
+    .row{
+      div:first-child{
+        flex-direction: column;
+        align-items: center;
+      }
+
+    }
+    h2{
+      font-size: 32px;
+    }
+    .row{
+      div:nth-last-child(-n+3){
+        display: none;
+      }
+    }
+  }
+  .Meet_host{
+    p{
+      line-height: 26px;
+      letter-spacing: 0.02em;
+    }
+    h2{
+      font-size: 36px;
+      text-align: center;
+      letter-spacing: 0.02em;
+    }
+    .row{
+      div:first-child{
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .Topics{
+    padding: 0 0 50px;
+  }
+  .Keep_in_touch{
+    .btn{
+      right: -2px;
+    }
+  }
+  footer{
+    padding: 50px 0 26px;
+    text-align: center;
+    h3{
+      margin-bottom: 15px;
+    }
+    .row{
+      div:first-child{
+        margin-bottom: 20px;
+      }
+    }
+    ul{
+      li{
+        margin-bottom: 5px;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 576px) {
+  header{
+    position: initial;
+    background: #1D1E33 ;
+    img{
+      width: 160px;
+    }
+    nav{
+      .navbar-nav{
+        align-items: center;
+        .nav-item{
+          margin: 0;
+        }
+      }
+      .btn-link{
+        margin: auto;
+      }
+    }
+  }
+  .First-section{
 
+    padding: 70px 0 70px;
+    h3{
+      font-size: 14px;
+
+    }
+    h1{
+      font-size: 37px;
+      line-height: 49px;
+    }
+    .row {
+      div:first-child{
+        .btn-link-tr{
+          margin-bottom: 25px;
+        }
+        .btn-link{
+          margin-bottom: 25px;
+        }
+
+      }
+      div:last-child{
+        img{
+          display: none;
+        }
+      }
+
+
+    }
+
+    a{
+      display: block;
+      text-align: center;
+      margin-bottom: 14px;
+    }
+  }
+  .Episodes{
+    padding: 50px 0;
+    .row{
+      div:first-child{
+        flex-direction: column;
+        align-items: center;
+      }
+
+    }
+    h2{
+      font-size: 32px;
+    }
+    .row{
+      div:nth-last-child(-n+3){
+        display: none;
+      }
+    }
+  }
+  .Meet_host{
+    p{
+      line-height: 26px;
+      letter-spacing: 0.02em;
+    }
+    h2{
+      font-size: 36px;
+      text-align: center;
+      letter-spacing: 0.02em;
+    }
+    .row{
+      div:first-child{
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .Topics{
+    padding: 0 0 50px;
+  }
+  .Keep_in_touch{
+    .btn{
+      right: -2px;
+    }
+  }
+  footer{
+    padding: 50px 0 26px;
+    text-align: center;
+    h3{
+      margin-bottom: 15px;
+    }
+    .row{
+      div:first-child{
+        margin-bottom: 20px;
+      }
+    }
+    ul{
+      li{
+        margin-bottom: 5px;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 375px) {
+  header{
+    position: initial;
+    background: #1D1E33 ;
+    img{
+      width: 160px;
+    }
+    nav{
+      .navbar-nav{
+        align-items: center;
+        .nav-item{
+          margin: 0;
+        }
+      }
+      .btn-link{
+        margin: auto;
+      }
+    }
+  }
+  .First-section{
 
+    padding: 70px 0 70px;
+    h3{
+      font-size: 14px;
+
+    }
+    h1{
+      font-size: 37px;
+      line-height: 49px;
+    }
+    .row {
+      div:first-child{
+        .btn-link-tr{
+          margin-bottom: 25px;
+        }
+        .btn-link{
+          margin-bottom: 25px;
+        }
+
+      }
+      div:last-child{
+        img{
+          display: none;
+        }
+      }
+
+
+    }
+
+    a{
+      display: block;
+      text-align: center;
+      margin-bottom: 14px;
+    }
+  }
+  .Episodes{
+    padding: 50px 0;
+    .row{
+      div:first-child{
+        flex-direction: column;
+        align-items: center;
+      }
+
+    }
+    h2{
+      font-size: 32px;
+    }
+    .row{
+      div:nth-last-child(-n+3){
+        display: none;
+      }
+    }
+  }
+  .Meet_host{
+    p{
+      line-height: 26px;
+      letter-spacing: 0.02em;
+    }
+    h2{
+      font-size: 36px;
+      text-align: center;
+      letter-spacing: 0.02em;
+    }
+    .row{
+      div:first-child{
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .Topics{
+    padding: 0 0 50px;
+  }
+  .Keep_in_touch{
+    .btn{
+      right: -2px;
+    }
+  }
+  footer{
+    padding: 50px 0 26px;
+    text-align: center;
+    h3{
+      margin-bottom: 15px;
+    }
+    .row{
+      div:first-child{
+        margin-bottom: 20px;
+      }
+    }
+    ul{
+      li{
+        margin-bottom: 5px;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 360px) {
+  header{
+    position: initial;
+    background: #1D1E33 ;
+    img{
+      width: 160px;
+    }
+    nav{
+      .navbar-nav{
+        align-items: center;
+        .nav-item{
+          margin: 0;
+        }
+      }
+      .btn-link{
+        margin: auto;
+      }
+    }
+  }
+  .First-section{
 
+    padding: 70px 0 70px;
+    h3{
+      font-size: 14px;
+
+    }
+    h1{
+      font-size: 37px;
+      line-height: 49px;
+    }
+    .row {
+      div:first-child{
+        .btn-link-tr{
+          margin-bottom: 25px;
+        }
+        .btn-link{
+          margin-bottom: 25px;
+        }
+
+      }
+      div:last-child{
+        img{
+          display: none;
+        }
+      }
+
+
+    }
+
+    a{
+      display: block;
+      text-align: center;
+      margin-bottom: 14px;
+    }
+  }
+  .Episodes{
+    padding: 50px 0;
+    .row{
+      div:first-child{
+        flex-direction: column;
+        align-items: center;
+      }
+
+    }
+    h2{
+      font-size: 32px;
+    }
+    .row{
+      div:nth-last-child(-n+3){
+        display: none;
+      }
+    }
+  }
+  .Meet_host{
+    p{
+      line-height: 26px;
+      letter-spacing: 0.02em;
+    }
+    h2{
+      font-size: 36px;
+      text-align: center;
+      letter-spacing: 0.02em;
+    }
+    .row{
+      div:first-child{
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .Topics{
+    padding: 0 0 50px;
+  }
+  .Keep_in_touch{
+    .btn{
+      right: -2px;
+    }
+  }
+  footer{
+    padding: 50px 0 26px;
+    text-align: center;
+    h3{
+      margin-bottom: 15px;
+    }
+    .row{
+      div:first-child{
+        margin-bottom: 20px;
+      }
+    }
+    ul{
+      li{
+        margin-bottom: 5px;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 320px) {
-  .container {
-    width: 305px;
-  }
   header{
-    .navigationbar{
-      flex-wrap: wrap;
+    position: initial;
+    background: #1D1E33 ;
+    img{
+      width: 160px;
     }
-  }
-  .first_section {
-
-    .heading {
-      h1{
-        font-size: 40px;
-      }
-      div {
-      &:nth-of-type(1){
-        flex-wrap: wrap;
-      }
-        &:nth-of-type(2) {
-          display: none;
+    nav{
+      .navbar-nav{
+        align-items: center;
+        .nav-item{
+          margin: 0;
         }
       }
-    }
-  }
-  .Episodes {
-    .wrapper {
-      .ep_box_img {
-        width: 305px;
+      .btn-link{
+        margin: auto;
       }
+    }
+  }
+  .First-section{
+
+    padding: 70px 0 70px;
+    h3{
+      font-size: 14px;
 
     }
+    h1{
+      font-size: 37px;
+      line-height: 49px;
+    }
+    .row {
+      div:first-child{
+        .btn-link-tr{
+          margin-bottom: 25px;
+        }
+        .btn-link{
+          margin-bottom: 25px;
+        }
 
-  }
-  .Topics {
-    .wrapper {
-      flex-wrap: wrap;
-      div {
+    }
+      div:last-child{
         img{
-          width: 305px;
-        }
-      }
-    }
-  }
-  .Keep{
-    .wrapper{
-      form{
-        display: flex;
-        flex-direction: column;
-        input{
-          width: 305px;
-          padding: 12px 0px 12px 30px;
-        }
-        .btn{
-          position: initial;
-        }
-      }
-    }
-  }
-  .footer{
-    .wrapper{
-      flex-wrap: wrap;
-      .twitter{
-        justify-content: center;
-        a:nth-child(1):after {
-
-            display: none;
-
-        }
-        a:nth-child(2):after {
-
           display: none;
-
-        }
-
-
-        a:nth-child(2){
-margin-right: 25px;
-          margin-left: 25px;
-
         }
       }
-      .wrap_right{
 
+
+    }
+
+a{
+  display: block;
+  text-align: center;
+  margin-bottom: 14px;
+}
+  }
+  .Episodes{
+    padding: 50px 0;
+    .row{
+      div:first-child{
+        flex-direction: column;
+        align-items: center;
+      }
+
+    }
+    h2{
+      font-size: 32px;
+    }
+    .row{
+      div:nth-last-child(-n+3){
+        display: none;
+      }
+    }
+  }
+  .Meet_host{
+    p{
+      line-height: 26px;
+      letter-spacing: 0.02em;
+    }
+    h2{
+      font-size: 36px;
+      text-align: center;
+      letter-spacing: 0.02em;
+    }
+    .row{
+      div:first-child{
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .Topics{
+    padding: 0 0 50px;
+  }
+  .Keep_in_touch{
+    .btn{
+      right: -2px;
+    }
+  }
+  footer{
+    padding: 50px 0 26px;
+    text-align: center;
+    h3{
+      margin-bottom: 15px;
+    }
+    .row{
+      div:first-child{
+        margin-bottom: 20px;
+      }
+    }
+    ul{
+      li{
+        margin-bottom: 5px;
       }
     }
   }
 }
-
 
 
 
