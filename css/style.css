@@ -18,6 +18,8 @@ header {
   position: absolute;
   width: 100%;
   font-family: "Poppins"; }
+  header .btn-link, header .First-section .row div:first-child .btn-link, .First-section .row div:first-child header .btn-link, header .First-section .row div:first-child .btn-link-tr, .First-section .row div:first-child header .btn-link-tr, header .Meet_host .btn-link, .Meet_host header .btn-link {
+    display: inline-block; }
   header nav .navbar-nav .nav-item {
     margin-right: 25px;
     margin-left: 25px; }

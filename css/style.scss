@@ -22,7 +22,9 @@ header {
   position: absolute;
   width: 100%;
   font-family: "Poppins";
-
+.btn-link{
+  display: inline-block;
+}
   nav {
     .navbar-nav {
       .nav-item {
